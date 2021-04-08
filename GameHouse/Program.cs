@@ -17,8 +17,8 @@ namespace GameHouse
             customer1.Id = 1;
             customer1.FirstName = "Aytuğ";
             customer1.LastName = "YEŞİLYURT";
-            customer1.BirthYear = new DateTime(1996,5,8);
-            customer1.NationalNumber = 37700130416;
+            customer1.BirthYear = new DateTime(1111,1,1);
+            customer1.NationalNumber = 11111111111;
             customer1.CardNumber = "1111-1111-1111-1111-1111";
             customer1.UserName = customer1.FirstName + " " + customer1.LastName;
             

@@ -1,6 +1,7 @@
 ﻿using GameHouse.Entities;
 using System;
 using System.Collections.Generic;
+using System.Net.Mime;
 using System.Text;
 using GameHouse.Abstract.UserOperations.ValidationOperations;
 
@@ -25,7 +26,9 @@ namespace GameHouse.Abstract
 
             else
             {
-                Console.WriteLine(user.FirstName + " " + user.LastName + " KİŞİ BİLGİLERİ YANLIŞ!\nLÜTFEN BİLGİLERİNİZİ KONTROL EDİNİZ.");
+                Console.WriteLine(user.FirstName + " " + user.LastName + " KİŞİ BİLGİLERİ YANLIŞ!\nLÜTFEN BİLGİLERİNİZİ KONTROL EDİNİZ.\nSİSTEMDEN ÇIKIŞ YAPILIYOR...");
+                Environment.Exit(3);
+
             }
         }
 
